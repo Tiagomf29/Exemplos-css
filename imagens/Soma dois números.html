@@ -1,0 +1,49 @@
+
+<!-- saved from url=(0072)file:///C:/Users/Tiago/Desktop/Nova%20pasta/SomaNumeros.html?num1=&num2= -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Soma dois números</title>
+    <style role="stylesheet" type="text/css">
+      fieldset{
+          width: 400px;
+          background-color: yellow;
+      }  
+
+      form{
+          left: 33%;
+          top: 20%;
+          position: absolute;
+      }
+
+      input:focus{
+          background-color: aqua;
+      }
+
+    </style>
+    <script type="text/javascript">
+        function somaNumeros(){
+           
+           alert("32");
+        }
+    </script>   
+</head>
+<body>
+  
+    <form id="formulario">
+       <fieldset>
+          <legend><h1>Soma dois números</h1></legend>  
+
+          <label for="numero1">Número 1</label>    
+          <input type="text" name="num1"><br><br>
+
+          <label for="numero2">Número 2</label>
+          <input type="text" name="num2"><br><br>
+
+          <label for="resultado">Resultado</label>
+          <input type="text" name="resultado" disabled="disabled"><br><br>
+
+          <button onclick="somaNumeros()">Calcular</button>
+       </fieldset>
+    </form>
+
+
+</body></html>
